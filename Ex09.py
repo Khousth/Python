@@ -1,0 +1,15 @@
+# 9º Exercício => Faça um sistema que mostre qual variável é menor:
+
+# Apresentação do Sistema:
+print("\nSistema que mostra qual variavel é menor:\n")
+
+# Entrada de valores:
+a = int(input('Digite a primeira variável: '))
+b = int(input('Digite a segunda variável: '))
+ 
+# Etapa de Decisão
+if (a < b):
+    print("\nA primeira variável é menor!\n")
+
+else:
+    print("\nA segunda variável é menor\n")
